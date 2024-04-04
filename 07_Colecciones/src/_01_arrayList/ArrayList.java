@@ -1,4 +1,6 @@
+/*
 package _01_arrayList;
+
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -25,7 +27,7 @@ public class ArrayList {
 		//La clase ArrayList se tiene que parametrizar, esto es,
 		//se pone entre <> el tipo de dato que queremos que contenga
 		//el ArraList. A los arraylist yo los llamos listas
-		ArrayList<String> listaString1 = new ArrayList<String>();
+		ArrayList listaString1 = new ArrayList();
 		//Si preguntamos por el tamaño del array
 		System.out.println(listaString1.size());
 		
@@ -118,3 +120,5 @@ public class ArrayList {
 	}
 
 }
+
+ */
