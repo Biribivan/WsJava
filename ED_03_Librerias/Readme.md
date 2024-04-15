@@ -1,20 +1,15 @@
-#LIBRERIAS
+# Librerías 02
 
-Las librerias en Java son clases dentro de un fichero .jar
+En este ejemplo vamos a importar las librerías que hemos hecho en el proyecto "Ed_02_Librerias".
 
-El objetivo es que sean usadas por otros proyectos. Se pueden encontrar muchas librerias Java 
-en el 'repositorio Maven'  "Link"
+Para importar librerías en java podemos hacer los siguientes pasos
 
-Para crear librerias en Java podemos hacer los siguientes passos:
+1. Crear un proyecto y crear la carpeta "lib" en la raíz.
+2. Copiar el ".jar" que queramos en la carpeta lib.
+3. Debemos modificar el "classpath" del proyecto java para que se puedan usar las clases que están en el fichero ".jar". El classpath es fundamental en todos los proyectos java. Es un fichero donde decimos al proyecto donde tiene que ir a buscar todos los ".class" para que puedan ser usados.
+4. Modificamos el "classpaht", para ello botón derecho sobre el proyeco y elegimos "build path" -> "configure build path"
+5. Vamos a la pestaña "libraries" y pulsamos "classpath". Se nos debería habilitar el botón de "add JARs"
+6. Una vez habilitado el botón, lo pulsamos y buscamos el fichero ".jar" que queremos añadir a nuestro proyecto. Pulsamos "OK" y luego "Apply and Close".
+7. Ya deberiamos poder usar las librerías en nuestro proyecto, podemos crear una clase "main" e importar las clases para poder usarlas.
 
-1. Crear un proyecto y hacer las clases que se necesiten
-2. Hacer boton derecho sobre el proyecto
-3. Elegir 'export'
-4. Buscar 'jar fie' y pulsar 'next'
-5. Elegir los paquetes que se quieran incluir en el fichero '.jar' , normalmente al menos el paquete 'src'
-6. En el boton 'browse' elegir la carpeta destino donde se quiere crear el fichero '.jar'
-Para este ejemplo se crea previamente la carpeta 'jar' donde se ah creado
-cv 
-Una vez hecho esto, se puede importar esye '.jar' en los proyectos deseados. En este caso v
-
-
+í

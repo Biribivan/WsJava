@@ -6,6 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/UpgradeHub/Desktop/Ivan2Santos/JAVA/WorkspaceJAVA/ED_03_Librerias/lib/E02_Librerias.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
